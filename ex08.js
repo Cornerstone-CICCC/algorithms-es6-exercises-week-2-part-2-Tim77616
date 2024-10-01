@@ -1,3 +1,11 @@
 // Join Exercise
 // Instructions: Create an array of at least five different words as strings. Write code to join all the words into a single string, with each word separated by a space.
 
+# Create an array of words
+words = ["hello", "world", "this", "is", "Python"]
+
+# Join the words into a single string with spaces
+joined_string = ' '.join(words)
+
+# Output the result
+print(joined_string)
